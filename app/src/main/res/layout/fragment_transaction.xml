@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundColor"
+    tools:context=".ui.transaction.TransactionFragment">
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="170dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColorHint="?attr/textColor"
+        app:layout_constraintBottom_toTopOf="@+id/nav_host_fragment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtAmount"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="352dp"
+        android:layout_marginEnd="4dp"
+        android:ems="10"
+        android:hint="Amount"
+        android:textColorHint="?attr/textColor"
+        android:inputType="number|numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/nav_host_fragment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.223"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/txtCategory"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Category"
+        android:textColorHint="?attr/textColor"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/txtDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.211"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnAddCategory"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="455dp"
+        android:text="+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/txtCategory"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtNote"
+        app:layout_constraintVertical_bias="0.318"
+        tools:ignore="MissingConstraints" />
+
+    <RadioGroup
+        android:id="@+id/radioGrpTransaction"
+        android:layout_width="340dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="27dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <RadioButton
+            android:id="@+id/radioBtnRevenue"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textColor="?attr/textColor"
+            android:text="Revenue" />
+
+        <RadioButton
+            android:id="@+id/radioBtnExpense"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/textColor"
+            android:text="Expense" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="288dp"
+        android:layout_marginEnd="4dp"
+        android:hint="Date"
+        android:textColorHint="?attr/textColor"
+        android:textColor="?attr/textColor"
+        android:clickable="true"
+        app:layout_constraintBottom_toTopOf="@+id/nav_host_fragment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.223"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtNote"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="410dp"
+        android:ems="10"
+        android:hint="Note"
+        android:textColorHint="?attr/textColor"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/nav_host_fragment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

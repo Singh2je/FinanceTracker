@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/monthlyLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5sp"
+    android:background="#fff"
+    android:elevation="2sp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/monthlyRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp">
+
+        <LinearLayout
+            android:id="@+id/monthlySubLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtMonth"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/txtAmount"
+                android:text="Month" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/txtExpenseTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expenses total"
+                android:textColor="#FF0000" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/txtRevenueTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Revenue total"
+                android:textColor="#03930F" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

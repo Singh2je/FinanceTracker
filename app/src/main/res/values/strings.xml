@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FinanceTracker</string>
+    <string name="title_home">Home</string>
+    <string name="title_transaction">Transaction</string>
+    <string name="title_calendar">Calendar</string>
+    <string name="title_statistics">Statistics</string>
+    <string name="title_settings">Settings</string>
+</resources>
