@@ -1,7 +1,7 @@
 # FinanceTracker
 Finance Tracker app
 
-
+Download Android Studio to run the application.
 
 	1) Homepage:
 		a. UI: Saving Goal Feature
