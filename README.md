@@ -1,7 +1,7 @@
 # FinanceTracker
 
 
-WIREFRAMES Created before starting development
+WIREFRAME: created before starting development
 
 <p align="center">
 <img src="https://github.com/Singh2je/FinanceTracker/assets/71667958/e6f95f94-0925-4aca-9452-74d58b21f04c" width="300" />
@@ -17,6 +17,8 @@ WIREFRAMES Created before starting development
 <img src="https://github.com/Singh2je/FinanceTracker/assets/71667958/150f290e-da5e-47a4-9590-dc233057be9a" width="300" />
 </p>
 
+
+Demo Link: 
 
 Download Android Studio to run the application.
 
