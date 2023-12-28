@@ -1,6 +1,13 @@
 # FinanceTracker
 Finance Tracker app
 
+![Finance Tracker (1)](https://github.com/Singh2je/FinanceTracker/assets/71667958/e6f95f94-0925-4aca-9452-74d58b21f04c)
+![Finance Tracker (5)](https://github.com/Singh2je/FinanceTracker/assets/71667958/84167f6e-ba55-4d0c-a07f-2aecfe15ea6c)
+![Finance Tracker (4)](https://github.com/Singh2je/FinanceTracker/assets/71667958/ef3278c5-c36b-4c63-bb1d-954f177aa790)
+![Finance Tracker (3)](https://github.com/Singh2je/FinanceTracker/assets/71667958/f289e491-a6cb-40a5-8fbe-4c736377428b)
+![Finance Tracker (2)](https://github.com/Singh2je/FinanceTracker/assets/71667958/150f290e-da5e-47a4-9590-dc233057be9a)
+
+
 Download Android Studio to run the application.
 
 	1) Homepage:
