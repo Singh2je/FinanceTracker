@@ -17,7 +17,21 @@ WIREFRAME: created before starting development
 <img src="https://github.com/Singh2je/FinanceTracker/assets/71667958/150f290e-da5e-47a4-9590-dc233057be9a" width="300" />
 </p>
 
-
+Current Application:
+<p align="center">
+    <img src="https://github.com/Singh2je/FinanceTracker/assets/71667958/d97311ab-1946-47ef-8285-3ae33bc6fdd7" width="300" />
+    <img src="https://github.com/Singh2je/FinanceTracker/assets/71667958/eeccaba4-2e56-423b-a096-f5695201282d" width="300" />
+</p>
+<br>
+<p align="center">
+    <img src="https://github.com/Singh2je/FinanceTracker/assets/71667958/f76f02e5-ca4d-457d-9357-8ac648c46768" width="300" />
+    <img src="https://github.com/Singh2je/FinanceTracker/assets/71667958/473e4ca0-7ace-4c84-ad48-62ac0b50ed5b" width="300" />
+</p>
+<br>
+<p align="center">
+    <img src="https://github.com/Singh2je/FinanceTracker/assets/71667958/6b728635-9229-4de2-a88f-80f5109d34f0" width="300" />
+    <img src="https://github.com/Singh2je/FinanceTracker/assets/71667958/3c9acc26-9392-4f60-bb85-7f5bea6b4c26" width="300" />
+</p>
 Demo Link: 
 
 Download Android Studio to run the application.
