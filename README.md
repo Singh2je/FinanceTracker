@@ -1,5 +1,7 @@
 # FinanceTracker
-Finance Tracker app
+
+
+WIREFRAMES Created before starting development
 
 <p align="center">
 <img src="https://github.com/Singh2je/FinanceTracker/assets/71667958/e6f95f94-0925-4aca-9452-74d58b21f04c" width="300" />
